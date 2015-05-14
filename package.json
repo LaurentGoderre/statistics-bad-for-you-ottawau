@@ -1,0 +1,26 @@
+{
+  "name": "statistics-bad-for-you",
+  "version": "0.0.1",
+  "description": "Presentation for my Toastmasters Competent Communicator Manual Speech #8",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaurentGoderre/statistics-bad-for-you.git"
+  },
+  "author": "Laurent Goderre <laurent.goderre@gmail.com> (http://github.com/LaurentGoderre)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LaurentGoderre/statistics-bad-for-you/issues"
+  },
+  "homepage": "https://github.com/LaurentGoderre/statistics-bad-for-you",
+  "devDependencies": {
+    "assemble": "^0.4.42",
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-connect": "^0.10.1",
+    "grunt-gh-pages": "^0.10.0"
+  }
+}

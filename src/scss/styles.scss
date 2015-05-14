@@ -1,0 +1,37 @@
+@import '../../lib/reveal.js/css/theme/league.css';
+
+h1{
+	height: 1px !important;
+	width: 1px !important;
+	clip: rect(1px, 1px, 1px, 1px);
+	overflow: hidden !important;
+	position: absolute;
+	margin: 0 !important;
+}
+
+#correlation_example {
+	+ {
+
+		figure {
+			table {
+				font-size: 85%;
+
+				td,
+				th {
+					border: 0;
+				}
+			}
+
+			caption {
+				font-weight: 800;
+				margin-bottom: 0.5em;
+				text-transform: uppercase;
+			}
+
+			figcaption {
+				font-size: 50%;
+				margin-top: 1em;
+			}
+		}
+	}
+}
