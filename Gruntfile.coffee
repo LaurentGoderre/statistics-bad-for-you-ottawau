@@ -67,11 +67,9 @@ module.exports = (grunt) ->
 		"gh-pages":
 			options:
 				message: "Travis build " + process.env.TRAVIS_BUILD_NUMBER
+				base: "dist"
 			src: [
-				"dist/**/*.*",
-				"*.html",
-				"*.md",
-				"*.txt"
+				"**",
 			]
 
 		connect:
